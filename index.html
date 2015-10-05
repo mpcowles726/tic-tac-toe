@@ -10,15 +10,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- link to custom stylesheet (always require after Bootstrap) -->
+    <Link rel="stylesheet" type="text/css" href="/Users/matthewcowles/dev/22-homework/mpcowles726/tic-tac-toe/styles.css">
 
     <!-- jQuery from CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 
     <!-- link to custom javascript file (always require after external JS libraries) -->
+    <script src="/Users/matthewcowles/dev/22-homework/mpcowles726/tic-tac-toe/ticTacToe.js"></script>
 
     <title>Tic Tac Toe</title>
   </head>
   <body>
+
+  <
+
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
@@ -35,11 +41,29 @@
           <!-- you can put rows inside of columns! -->
           <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
           <div class="row">
-            <div class="col-md-4 box">a</div>
-            <div class="col-md-4 box">a</div>
-            <div class="col-md-4 box">a</div>
+            <div id="1" class="col-xs-4 box">1</div>
+            <div id="2"class="col-xs-4 box">2</div>
+            <div id="3"class="col-xs-4 box">3</div>
           </div>
-        
+
+          <div class="row">
+            <div id="4" class="col-xs-4 box">4</div>
+            <div id="5" class="col-xs-4 box">5</div>
+            <div id="6" class="col-xs-4 box">6</div>
+          </div>
+
+          <div class="row">
+            <div id="7" class="col-xs-4 box">7</div>
+            <div id="8" class="col-xs-4 box">8</div>
+            <div id="9" class="col-xs-4 box">9</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+          <button class="btn btn-lg btn-danger" id="reset">Reset</button>
+        </div>
 
 
         </div>
